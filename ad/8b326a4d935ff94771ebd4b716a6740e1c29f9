@@ -1,0 +1,47 @@
+deploy/helm/dragonfly/Chart.lock
+  s_572c9c09e35f3e::t_e72dc167c80738 1-9
+deploy/helm/dragonfly/Chart.yaml
+  s_572c9c09e35f3e::t_a40b78dd904c72 1-54
+deploy/helm/dragonfly/README.md
+  s_572c9c09e35f3e::t_b87b256f583a4c 1-551
+deploy/helm/dragonfly/charts/mysql/.helmignore
+  s_572c9c09e35f3e::t_1fe48bbccc3406 1-23
+deploy/helm/dragonfly/charts/mysql/Chart.lock
+  s_572c9c09e35f3e::t_7aaab4ac4fad7d 1-6
+deploy/helm/dragonfly/charts/mysql/Chart.yaml
+  s_572c9c09e35f3e::t_51964e734fd5e6 1-35
+deploy/helm/dragonfly/charts/mysql/README.md
+  s_572c9c09e35f3e::t_3086c15d966abf 1-621
+deploy/helm/dragonfly/charts/mysql/charts/common/.helmignore
+  s_572c9c09e35f3e::t_19a0ce9ce68fcb 1-24
+deploy/helm/dragonfly/charts/mysql/charts/common/Chart.yaml
+  s_572c9c09e35f3e::t_f2d4044ff46c5b 1-23
+deploy/helm/dragonfly/charts/mysql/charts/common/README.md
+  s_572c9c09e35f3e::t_e637cf66c002ad 1-235
+deploy/helm/dragonfly/charts/mysql/charts/common/templates/_affinities.tpl
+  s_572c9c09e35f3e::t_0983f73e3990c6 1-139
+deploy/helm/dragonfly/charts/mysql/charts/common/templates/_capabilities.tpl
+  s_572c9c09e35f3e::t_6ccc8dcab48db4 1-229
+deploy/helm/dragonfly/charts/mysql/charts/common/templates/_compatibility.tpl
+  s_572c9c09e35f3e::t_66202d68d82c2a 1-39
+deploy/helm/dragonfly/charts/mysql/charts/common/templates/_errors.tpl
+  s_572c9c09e35f3e::t_385a34a5969069 1-28
+deploy/helm/dragonfly/charts/mysql/charts/common/templates/_images.tpl
+  s_572c9c09e35f3e::t_c310708d060f07 1-117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ad8b326a4d935ff94771ebd4b716a6740e1c29f9",
+  "prompts": {},
+  "sessions": {
+    "s_572c9c09e35f3e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facbc-3eef-75d2-9dff-62824a796346",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "tangpc <tangpc@chinatelecom.cn>"
+    }
+  }
+}
