@@ -1,0 +1,24 @@
+internal/job/redis_url.go
+  s_572c9c09e35f3e::t_c421958a360fbc 1-31
+internal/job/redis_url_test.go
+  s_572c9c09e35f3e::t_c421958a360fbc 1-16
+  s_572c9c09e35f3e::t_907cf75a175651 17-55
+internal/job/job.go
+  s_572c9c09e35f3e::t_1b1f856efc8982 74-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "bc39ea83a0e5cf477e3b6f8fdc6e6d653084e9c3",
+  "prompts": {},
+  "sessions": {
+    "s_572c9c09e35f3e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facbc-3eef-75d2-9dff-62824a796346",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
