@@ -1,0 +1,33 @@
+scheduler/resource/persistent/peer_manager.go
+  s_572c9c09e35f3e::t_b355d8dd21a7f3 381,385
+pkg/redis/redis.go
+  s_572c9c09e35f3e::t_3d1bce3f149d58 22,78-80,96,109-121,169-176
+pkg/redis/cluster_keys_test.go
+  s_572c9c09e35f3e::t_983f4e59b54860 17-60
+  s_572c9c09e35f3e::t_c421958a360fbc 1-16
+docs/redis-compatibility.md
+  s_572c9c09e35f3e::t_907cf75a175651 2-26
+  s_572c9c09e35f3e::t_461260ad6d2e3c 1
+scheduler/resource/persistentcache/peer_manager.go
+  s_572c9c09e35f3e::t_b355d8dd21a7f3 381,385
+scheduler/resource/persistent/task_manager.go
+  s_572c9c09e35f3e::t_b355d8dd21a7f3 246,255
+scheduler/resource/persistentcache/task_manager.go
+  s_572c9c09e35f3e::t_b355d8dd21a7f3 252,261
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ec6f6687dc7289573baf644a725a4ea6ba65e524",
+  "prompts": {},
+  "sessions": {
+    "s_572c9c09e35f3e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019facbc-3eef-75d2-9dff-62824a796346",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": null
+    }
+  }
+}
