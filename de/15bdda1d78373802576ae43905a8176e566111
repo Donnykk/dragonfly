@@ -1,0 +1,123 @@
+scheduler/config/config_test.go
+  s_5e2854b02f4d4d::t_71c8b0ebcf5336 1000-1002,1006-1007
+  s_5e2854b02f4d4d::t_b9b7b7ac2f260e 982-999,1003-1005,1008-1019
+manager/config/config_test.go
+  s_5e2854b02f4d4d::t_71c8b0ebcf5336 1047-1049,1054-1056
+  s_5e2854b02f4d4d::t_b9b7b7ac2f260e 1029-1046,1050-1053,1057-1068
+pkg/redis/cluster_keys_test.go
+  s_5e2854b02f4d4d::t_f3326af7f65306 21,94,108-128
+  s_5e2854b02f4d4d::t_a801d4586a27f8 20,25,47-50,55,68-93,95-107
+docs/redis-compatibility.md
+  s_5e2854b02f4d4d::t_8b84c4b4cecb42 3,5-9,11,13-15,17-69
+  s_5e2854b02f4d4d::t_df47bc48af26c2 70-72,76-78
+.github/workflows/auto-assign.yml
+  s_5e2854b02f4d4d::t_4103214c165453 14
+.github/workflows/docker.yml
+  s_5e2854b02f4d4d::t_c4f3dc19f58af6 70,77,117
+.github/workflows/lint.yml
+  s_5e2854b02f4d4d::t_f9e2be70ebf35a 23-27
+.github/workflows/release.yml
+  s_5e2854b02f4d4d::t_2e096f54a7bd36 33,82
+.github/workflows/scorecards.yml
+  s_5e2854b02f4d4d::t_1d3288a0e1d348 36,67
+build/images/manager/Dockerfile
+  s_5e2854b02f4d4d::t_567d5565b8b159 1
+build/images/scheduler/Dockerfile
+  s_5e2854b02f4d4d::t_3aa6a893cb62bc 1
+build/plugin-builder/images/manager/Dockerfile
+  s_5e2854b02f4d4d::t_40b58d03b001b9 1
+build/plugin-builder/images/scheduler/Dockerfile
+  s_5e2854b02f4d4d::t_c5698174641c9a 1
+client
+  s_5e2854b02f4d4d::t_1508c7f8013792 1
+go.mod
+  s_5e2854b02f4d4d::t_0c10fa676f0d93 7,44,109
+go.sum
+  s_5e2854b02f4d4d::t_7bb525fc49b640 58-59,159-160,595-596
+internal/job/job.go
+  s_5e2854b02f4d4d::t_53ad97f5872d18 36,76,78
+manager/config/config.go
+  s_5e2854b02f4d4d::t_97f20aaff3a5cf 230-233,662-665
+manager/middlewares/jwt.go
+  s_5e2854b02f4d4d::t_993a45c66f42fb 130
+manager/middlewares/jwt_test.go
+  s_5e2854b02f4d4d::t_cd77b43cfe7033 1-412
+manager/rpcserver/manager_server_v2.go
+  s_5e2854b02f4d4d::t_7e1428f949c936 766
+manager/rpcserver/manager_server_v2_test.go
+  s_5e2854b02f4d4d::t_840c7bb7bd7911 830
+manager/service/persistent_cache_task.go
+  s_5e2854b02f4d4d::t_d87408eeb80340 37,80-81,134,211,231,298,593-596
+manager/service/persistent_cache_task_test.go
+  s_5e2854b02f4d4d::t_27807063a94571 30,170,369,472,479-499
+pkg/redis/redis.go
+  s_5e2854b02f4d4d::t_a98f5cc11c0b19 22-23,106-120,129,189-206
+pkg/redis/redis_test.go
+  s_5e2854b02f4d4d::t_cea8b4abeb2f26 22,26-100
+pkg/rpc/health/client/client.go
+  s_5e2854b02f4d4d::t_3bf49f09086592 82
+pkg/rpc/health/client/client_test.go
+  s_5e2854b02f4d4d::t_fe2c11809ec5b1 1-141
+scheduler/config/config.go
+  s_5e2854b02f4d4d::t_0619a76a05cbd8 273-276,497-500
+scheduler/resource/persistent/host_manager.go
+  s_5e2854b02f4d4d::t_049e85ba6cc5c0 23-24,93,103-118,122,127,132,138,144,150,155,160,163-170,175,180,185,190,195,200,205,210,215,220,245,250,255,260,263-270,275,290,295,300,305,310,315,332,337,342,347,352,357,362,367,372,377,403,408,413,441,588-589,692-693,723,749,783-803,805-814,816-829,835-838
+scheduler/resource/persistent/host_manager_test.go
+  s_5e2854b02f4d4d::t_84ad27ca2d3bc1 259-273,1204-1240
+scheduler/resource/persistent/peer_manager.go
+  s_5e2854b02f4d4d::t_8d8cbc44cee9b6 101,262-265,345-348,384,424,447,459,501,524,551-554
+scheduler/resource/persistent/task_manager.go
+  s_5e2854b02f4d4d::t_1ba460af229bea 73,139,145,199,229,254,305-308
+scheduler/resource/persistent/task_manager_test.go
+  s_5e2854b02f4d4d::t_f39025f5c78a19 505-526
+scheduler/resource/persistentcache/host_manager.go
+  s_5e2854b02f4d4d::t_d9e28843e3347c 23-24,93,103-118,122,127,132,138,144,150,155,160,163-170,175,180,185,190,195,200,205,210,215,220,245,250,255,260,263-270,275,290,295,300,305,310,315,332,337,342,347,352,357,362,367,372,377,403,408,413,441,588-589,692-693,723,749,783-803,805-814,816-829,835-838
+scheduler/resource/persistentcache/host_manager_test.go
+  s_5e2854b02f4d4d::t_efc644c11c45cb 259-273,1204-1240
+scheduler/resource/persistentcache/peer_manager.go
+  s_5e2854b02f4d4d::t_a210b515eb737e 101,262-265,345-348,384,424,447,459,501,524,551-554
+scheduler/resource/persistentcache/task_manager.go
+  s_5e2854b02f4d4d::t_51bf0a7f191fe3 73,145,151,205,235,260,311-314
+scheduler/resource/persistentcache/task_manager_test.go
+  s_5e2854b02f4d4d::t_6f1954d27d1613 518-539
+scheduler/resource/standard/seed_peer.go
+  s_5e2854b02f4d4d::t_3c4443276ff23c 30,32,34-35,59-60,62-65,81-86,111,114-115,117-118,131-132,158,170,176-187,322-323,327-329,332-371,374-381,389,426-428,430,432-450,453-466,468-470,472-489
+scheduler/resource/standard/seed_peer_mock.go
+  s_5e2854b02f4d4d::t_2adb0388b800ef 46-57,113-124
+scheduler/resource/standard/seed_peer_test.go
+  s_5e2854b02f4d4d::t_dfa2cf01b68b37 22,31,51,99-120,148,151,154-155,157-158,160,164,168-185,187-203,205-228,230-233,237,241-246,248-282,284-307,309-314,317,321,325-335,337-353,355-364,366,369-488,496,498-504,523,546-547,558,585,592,603,615,618-632,643,646-661,675,697-698,703,971-972
+scheduler/service/service_v1.go
+  s_5e2854b02f4d4d::t_38c9d006025d89 545-550,633-637,658-663
+scheduler/service/service_v1_test.go
+  s_5e2854b02f4d4d::t_83fc6ceccff09d 1848,1913,2014,2115,2213,2248-2298,2309,2315,2323,2328,2341-2359,2367-2368,2378,2406,2414
+scheduler/service/service_v2.go
+  s_5e2854b02f4d4d::t_11a964f28e7663 754-758,1222,1235-1239
+scheduler/service/service_v2_test.go
+  s_5e2854b02f4d4d::t_d7cbaf2f26160e 1099,1172,1333,1494,1654,1814,1951,2017,2027-2028,2045,2050-2051,2087,2106,2382,2393,2412,2435-2468,2477,2510,2550,2577,2620,2635
+test/e2e/containerd_test.go
+  s_5e2854b02f4d4d::t_841d6ecb6861f0 83-85
+test/e2e/dfget_test.go
+  s_5e2854b02f4d4d::t_21caab45c93ef1 107-109,154-156,201-203,248-250,331-333
+test/e2e/proxy_test.go
+  s_5e2854b02f4d4d::t_000465b0e05947 109-111,157-159,205-207,253-255,752-754,791-793,830-832,869-871,908-910,947-949,986-988
+test/e2e/scheduler_test.go
+  s_5e2854b02f4d4d::t_f952e48bafe56e 1-86
+test/e2e/util/constants.go
+  s_5e2854b02f4d4d::t_e87734e5b61818 30-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "de15bdda1d78373802576ae43905a8176e566111",
+  "prompts": {},
+  "sessions": {
+    "s_5e2854b02f4d4d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19a39-746b-77f2-885a-a46d4354ad9e",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "donnykk <donnykk9527@gmail.com>"
+    }
+  }
+}
